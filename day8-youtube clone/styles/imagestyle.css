@@ -1,0 +1,27 @@
+.thembnail-image{
+    object-fit: cover;
+    border: 1px solid red;
+    width: 300px;
+    
+}
+  .video-metadata-row{
+    display: grid;
+    grid-template-columns: 50px 250px;  
+}
+.channel-image{
+    object-fit: cover;
+    width:50px ;
+    vertical-align: top;
+     border-radius:25px;
+     display: inline-block;
+}
+.video-card{
+    display: inline-block;
+    margin-right:10px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 20px; 
+    row-gap: 20px;
+}

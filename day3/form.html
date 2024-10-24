@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Name<input type="name"><br>
+        Password<input type="password"><br>
+        Email<input type="email"><br>
+        Age<input type="number"><br>
+        DOB<input type="number"><br>
+        DOJ<input type="datetime-local"><br>
+
+        Month<input type="month"><br>
+        week<input type="week"><br>
+        URL<input type="url"><br>
+        Tel<input type="tel"><br>
+        Speed<input type="range" id="rangeInput" min="0" max="100" value="50" step="1" oninput="updateValue(this.value)">
+        value:<span id="rangeValue"></span><br>
+        <script>
+            function updateValue(value){
+                document.getElementById('rangeValue').innerText=value;
+            }
+        </script>
+        Time<input type="time"><br>
+
+        color<input type="color"><br>
+        Hobby<input type="checkbox"><br>
+        Gender<input type="radio"><br>
+        File<input type="file"><br>
+               Nationality
+               <select >
+                  Shopp
+
+               </select>
+        <input type="submit"><br>
+        <input type="reset"><br>
+    </form>
+     <a herf=""></a>    <!-- link baki -->
+</body>
+</html>
